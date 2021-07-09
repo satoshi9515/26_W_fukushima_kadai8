@@ -1,0 +1,316 @@
+body{
+    
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.header{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.header-menu{
+    display: flex;
+    margin: auto;
+    list-style: none;
+
+   
+}
+
+.header-menu li{
+padding: 20px;
+font-size: 25px;
+margin:5px;
+border-radius: 8px;
+border:5px solid blue;
+}
+.page-title{
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.wrapper{
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+#confirmation4{
+    font-size: 15px;
+}
+.debt-container1{
+    display:none;
+
+}
+
+
+#username{
+    width: 40%;
+    height: 50px;
+    font-size: 35px;
+}
+#send0 {
+    margin: 10px;
+    width: 20%;
+    height: 50px;
+    font-size: 35px;
+}
+.purpose1{
+    font-size: 35px;
+    margin:0 auto;
+    
+    text-align:-webkit-center;
+    
+}
+#purpose1{
+    width: 30%;
+    height: 55px;
+    font-size: 35px;
+    margin:0 auto;
+}
+#send1 {
+    margin: 10px;
+    width: 20%;
+    height: 50px;
+    font-size: 35px;
+}
+
+
+
+.text-container1{
+    margin:10px 0px;
+    display:none;
+    font-size: 35px;
+}
+.text-container2{
+    display:none;
+    
+    margin:10px 0px;
+}
+#text2{
+    width: 45%;
+    height: 55px;
+    font-size: 35px;
+    margin:0 auto;
+}
+
+#send2 {
+    margin: 10px;
+    width: 20%;
+    height: 50px;
+    font-size: 35px;
+}
+
+.text-container3{
+    display:none;
+    
+    margin:10px 0px;
+}
+
+#text3{
+    width: 30%;
+    height: 55px;
+    font-size: 35px;
+    margin:0 auto;
+}
+#send3 {
+    margin: 10px;
+    width: 20%;
+    height: 50px;
+    font-size: 35px;
+}
+
+.confirmation4{
+    display:none;
+
+}
+.digit{ display:none;
+
+}
+.instruction li{
+    list-style: none;
+    font-size: 10px
+
+}
+.cstatus{
+    border: 4px solid;
+    border-color: black;
+    padding:10px;
+    width: 150px;
+    text-align: center;
+    display:none;
+    margin: 0 auto;
+    width: 50%;
+
+
+}
+#deadline5{
+    display: none;
+}
+.return7{
+    display:none;
+    list-style: none;
+    font-size: 35px;
+}
+.return7 li{
+    list-style: none;
+    
+}
+
+
+.purpose4{
+    font-size: 35px;
+    margin:0 auto;
+    
+    text-align:-webkit-center;
+    
+}
+#confirmation4{
+    width: 30%;
+    height: 55px;
+    margin:0 auto;
+}
+#send4 {
+    margin: 10px;
+    width: 20%;
+    height: 50px;
+    font-size: 35px;
+    
+}
+.cstatuss{
+    border: 4px solid;
+    border-color: black;
+    padding:10px;
+    width: 150px;
+    text-align: center;
+    
+    margin: 0 auto;
+    width: 50%;
+
+
+}
+screenshot-image d-none{
+    display: block;
+}
+.screenshot-image {
+    width: 150px;
+    height: 90px;
+    border-radius: 4px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background: white;
+    font-size: 10px;
+}
+
+.display-wrapper{
+    display: none;
+    margin-bottom: 200px auto;
+}
+.display-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 2% auto;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.video-options {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width:100px;
+    height: 30px;
+    color:black;
+    font-size:10px;
+}
+
+.controls {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 6px;
+    background: transparent;
+}
+
+.controls > button:hover svg {
+    color: white !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls button {
+        margin: 5px 0 !important;
+    }
+}
+
+.controls > button > svg {
+    height: 20px;
+    width: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.controls button:nth-child(1) {
+    border: 2px solid #D2002E;
+}
+
+.controls button:nth-child(1) svg {
+    color: #D2002E;
+}
+
+.controls button:nth-child(2) {
+    border: 2px solid #008496;
+}
+
+.controls button:nth-child(2) svg {
+    color: #008496;
+}
+
+.controls button:nth-child(3) {
+    border: 2px solid #00B541;
+}
+
+.controls button:nth-child(3) svg {
+    color: #00B541;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 6px;
+    background: transparent;
+}
+
+.controls > button:hover svg {
+    color: white;
+}
